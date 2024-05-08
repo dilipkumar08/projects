@@ -54,6 +54,3 @@ Once the Streamlit app is running, you can:
 
 Contributions to the YouTube Channel Data Extraction Project are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
 
-Contributing
-
-Contributions to the YouTube Channel Data Extraction Project are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
