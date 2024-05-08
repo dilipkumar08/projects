@@ -42,6 +42,18 @@ Once the Streamlit app is running, you can:
 
 - **Navigate Between Sections**: Easily navigate between different sections of the application to view channel data, video data, and comment data. The application provides a seamless experience for exploring the extracted YouTube data.
 
+## Running the Project
+
+To run the YouTube data extraction process:
+
+1. Open the `source_code` directory.
+2. Open the `youtube.py` file.
+3. Replace the `API_KEY` variable with your YouTube API key.
+4. Run the script using Python:
+
+   ```bash
+   python youtube.py
+
 ## Contributing
 
 Contributions to the YouTube Channel Data Extraction Project are welcome! If you have any suggestions, feature requests, or bug reports, please open an issue or submit a pull request.
