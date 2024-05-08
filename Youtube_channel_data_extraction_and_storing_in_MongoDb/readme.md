@@ -14,7 +14,7 @@ This project provides a set of Python scripts and utilities to interact with the
 - **MongoDB Integration**: Store the extracted data in a MongoDB database for persistent storage and future analysis.
 - **Interactive Visualization**: Visualize the extracted data using Streamlit, allowing users to interactively explore channel data.
 
-## Getting Started
+## Getting Started (Running the Project)
 
 To get started with the YouTube Channel Data Extraction Project, follow these steps:
 
@@ -22,15 +22,22 @@ To get started with the YouTube Channel Data Extraction Project, follow these st
 
    ```bash
    pip install -r requirements.txt
+   
 2. Obtain YouTube API Key: Obtain an API key from the [Google Cloud Console](https://console.cloud.google.com/). Enable the YouTube Data API v3 for your project and generate an API key.
 
-3. Set Up Environment Variables: Create a .env file in the project directory and set your API key:
-   API_KEY=your_api_key_here
+3. Set Up Environment Variables: Create a .env file in the project directory 
+
+4. Open the `source_code` directory.
    
-5. Run the Streamlit App: Start the Streamlit app to interact with the extracted data:
+5. save the `youtube.py` and `YTDE_FE.py` files.
+
+6. Replace the `API_KEY` variable with your YouTube API key.
+
+7. Run the script using Python:
+
+   ```bash
    streamlit run YTDE_FE.py
 
-   Usage
 
 ## Usage
 
@@ -42,17 +49,6 @@ Once the Streamlit app is running, you can:
 
 - **Navigate Between Sections**: Easily navigate between different sections of the application to view channel data, video data, and comment data. The application provides a seamless experience for exploring the extracted YouTube data.
 
-## Running the Project
-
-To run the YouTube data extraction process:
-
-1. Open the `source_code` directory.
-2. Open the `youtube.py` file.
-3. Replace the `API_KEY` variable with your YouTube API key.
-4. Run the script using Python:
-
-   ```bash
-   python youtube.py
 
 ## Contributing
 
