@@ -33,7 +33,9 @@ To get started with the YouTube Channel Data Extraction Project, follow these st
 
 6. Replace the `API_KEY` variable with your YouTube API key.
 
-7. Run the script using Python:
+7. Replace the `MongoDB connection URL` with your local or desired point of storage.
+
+8. Run the script using Python:
 
    ```bash
    streamlit run YTDE_FE.py
