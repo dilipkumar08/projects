@@ -20,7 +20,18 @@ This Streamlit application offers a comprehensive exploration and visualization 
 
 ## How to Use the App
 
-1. **Run the Application**: Ensure Python and Streamlit are installed. Navigate to the project directory in your terminal and run `streamlit run app.py`.
+1.Using the Code
+
+   To utilize the provided codebase for your own data visualization and exploration project,
+   you need to follow a few simple steps. First, ensure you have Python and the required libraries installed.
+   Once done, clone the repository to your local machine and navigate to the project directory.
+   Within the project, you'll find the stream.py file, which serves as the entry point for the Streamlit application. 
+   You can modify this file to customize the application according to your specific requirements. 
+   Additionally, you need to update the database credentials within the phonepe.py file located in the utils directory, 
+   ensuring that it reflects the connection details of your MySQL database. After making these adjustments, you can run the application by executing 
+   the command streamlit run stream.py in your terminal. This will launch the Streamlit server, allowing you to access the application through your web browser.
+   From there, you can explore and visualize your own dataset, gaining valuable insights tailored to your needs.
+
    
 2. **Explore the App**:
    - Utilize the sidebar menu to navigate between "Home," "Data Visualization," and "Analysis" sections.
@@ -48,14 +59,3 @@ phonepe: Your custom library containing functions for database interaction, data
 pandas: Provides data manipulation and analysis capabilities.
 plotly.express: Creates interactive charts for data visualization.
 
-Using the Code
-
-To utilize the provided codebase for your own data visualization and exploration project,
-you need to follow a few simple steps. First, ensure you have Python and the required libraries installed.
-Once done, clone the repository to your local machine and navigate to the project directory.
-Within the project, you'll find the stream.py file, which serves as the entry point for the Streamlit application. 
-You can modify this file to customize the application according to your specific requirements. 
-Additionally, you need to update the database credentials within the phonepe.py file located in the utils directory, 
-ensuring that it reflects the connection details of your MySQL database. After making these adjustments, you can run the application by executing 
-the command streamlit run stream.py in your terminal. This will launch the Streamlit server, allowing you to access the application through your web browser.
-From there, you can explore and visualize your own dataset, gaining valuable insights tailored to your needs.
