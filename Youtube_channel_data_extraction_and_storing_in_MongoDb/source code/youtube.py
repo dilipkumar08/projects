@@ -60,7 +60,7 @@ class YT_channel():
     def __init__(self):   
         service="youtube"
         version="v3"
-        key='AIzaSyAvCGvrqMTW1tneMxuXbXPVLEmDbJxSOZ4'
+        key='your YouTube api key'
         self.yt=build(service,version,developerKey=key)
     
     def extract_comment_data(self, id):
