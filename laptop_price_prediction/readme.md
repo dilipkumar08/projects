@@ -49,7 +49,7 @@ pip install -r requirements.txt
 
 ### requirements.txt
 
-```plaintext
+```bash
 pandas
 numpy
 scikit-learn
