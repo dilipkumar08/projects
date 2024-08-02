@@ -1,4 +1,5 @@
 
+---
 
 # ResNet Image Classifier
 
@@ -43,6 +44,11 @@ This repository contains a Streamlit app that uses a pretrained ResNet-101 model
     streamlit run app.py
     ```
 
-2. Open `http://localhost:8501` in your browser.
+2. Open [http://localhost:8501](http://localhost:8501) in your browser.
+
+## License
 
 
+---
+
+Feel free to adjust the URL and any other specific details as needed.
