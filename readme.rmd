@@ -1,4 +1,4 @@
----
+
 
 # ResNet Image Classifier
 
@@ -45,8 +45,4 @@ This repository contains a Streamlit app that uses a pretrained ResNet-101 model
 
 2. Open `http://localhost:8501` in your browser.
 
-## License
 
-This project is licensed under the MIT License.
-
----
